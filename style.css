@@ -1,0 +1,46 @@
+body {
+    font-family: Arial;
+    padding: 40px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.profile {
+    width: 180px;
+    border-radius: 50%;
+}
+
+.content {
+    margin-left: 40px;
+}
+
+.icons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.icons div {
+    width: 90px;
+}
+
+.icons img {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s;
+}
+
+.icons img:hover {
+    transform: scale(1.1);
+}
+
+.icons p {
+    margin-top: 6px;
+    font-size: 13px;
+}
