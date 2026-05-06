@@ -2,35 +2,139 @@
 <html>
 <head>
     <title>Firoz Alam</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            padding: 40px;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+        }
+
+        .profile {
+            width: 200px;
+            border-radius: 50%;
+        }
+
+        .content {
+            margin-left: 40px;
+        }
+
+        .icons {
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+        }
+
+        .icons div {
+            width: 100px;
+        }
+
+        .icons img {
+            width: 60px;
+            height: 60px;
+        }
+
+        .icons p {
+            margin-top: 5px;
+            font-size: 14px;
+        }
+
+        h2 {
+            margin-top: 40px;
+        }
+    </style>
 </head>
 
-<body style="font-family: Arial; padding: 20px;">
+<body>
 
-    <h1>Firoz Alam</h1>
+<!-- PROFILE SECTION -->
+<div class="container">
+    <img src="profile.jpg" class="profile">
 
-    <img src="profile.jpg" width="200" style="border-radius: 50%;">
+    <div class="content">
+        <h1>Firoz Alam</h1>
 
-    <p>
-        I am an M.Tech student in Computer Science with interest in 
-        Machine Learning, Computer Vision, and Software Development.
-    </p>
+        <p>
+        I am an M.Tech student in Computer Science at MNIT Jaipur with strong interest in 
+        Machine Learning, Computer Vision, and Software Engineering. 
+        I am currently working on research in real-time object detection (YOLOv10) 
+        and exploring advanced AI-driven solutions.
+        </p>
 
-    <h2>Skills</h2>
-    <ul>
-        <li>Python</li>
-        <li>C++</li>
-        <li>Machine Learning</li>
-    </ul>
+        <h3>Skills</h3>
+        <ul>
+            <li>Python</li>
+            <li>C++</li>
+            <li>Machine Learning</li>
+        </ul>
+    </div>
+</div>
 
-    <h2>Projects</h2>
-    <ul>
-        <li>YOLOv10 Research Work</li>
-        <li>Smart Crop Monitoring System</li>
-    </ul>
+<!-- ICON LINKS SECTION -->
+<div class="icons">
 
-    <h2>Links</h2>
-   <a href="https://github.com/Firoz0006" target="_blank">GitHub</a> |
-<a href="https://www.linkedin.com/in/your-linkedin-id" target="_blank">LinkedIn</a>
+    <div>
+        <a href="#">
+            <img src="https://img.icons8.com/color/96/school.png"/>
+        </a>
+        <p>Education</p>
+    </div>
+
+    <div>
+        <a href="resume.pdf" target="_blank">
+            <img src="https://img.icons8.com/color/96/pdf.png"/>
+        </a>
+        <p>Resume</p>
+    </div>
+
+    <div>
+        <a href="https://scholar.google.com/" target="_blank">
+            <img src="https://img.icons8.com/color/96/google-scholar.png"/>
+        </a>
+        <p>Google Scholar</p>
+    </div>
+
+    <div>
+        <a href="https://github.com/Firoz0006" target="_blank">
+            <img src="https://img.icons8.com/ios-glyphs/96/github.png"/>
+        </a>
+        <p>Github</p>
+    </div>
+
+    <div>
+        <a href="https://www.linkedin.com/in/your-linkedin-id" target="_blank">
+            <img src="https://img.icons8.com/color/96/linkedin.png"/>
+        </a>
+        <p>LinkedIn</p>
+    </div>
+
+    <div>
+        <a href="https://www.mathworks.com/matlabcentral/fileexchange/" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png"/>
+        </a>
+        <p>MATLAB File Exchange</p>
+    </div>
+
+    <div>
+        <a href="https://youtube.com/" target="_blank">
+            <img src="https://img.icons8.com/color/96/youtube-play.png"/>
+        </a>
+        <p>YouTube</p>
+    </div>
+
+</div>
+
+<!-- PROJECTS -->
+<h2>Projects</h2>
+<ul>
+    <li>YOLOv10 Research Work</li>
+    <li>Smart Crop Monitoring System</li>
+</ul>
 
 </body>
 </html>
